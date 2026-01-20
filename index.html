@@ -214,35 +214,21 @@
 <section class="section">
   <div class="container is-max-desktop">
 
+    <!-- Method Overview. -->
     <div class="columns is-centered">
-
-      <!-- Method Overview. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Method Overview</h2>
+      <div class="column is-full-width">
+        <h2 class="title is-3">Method Overview</h2>
+        <div class="content has-text-justified">
           <p>
             RADSeg leverages the RADIO foundation model and enhances it with Self-Correlating Recursive Attention (SCRA) and Self-Correlating Global Aggregation (SCGA) to achieve state-of-the-art zero-shot open-vocabulary semantic segmentation.
           </p>
+        </div>
+        <div class="content has-text-centered">
           <img src="./static/images/method_figure.svg" alt="RADSeg Method" style="width: 100%;">
         </div>
       </div>
-      <!--/ Method Overview. -->
-
-      <!-- Attention Visualization. -->
-      <div class="column">
-        <h2 class="title is-3">Self-Correlating Attention</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              Our self-correlating recursive attention mechanism enhances spatial locality in RADIO features, leading to improved segmentation quality and reduced artifacts.
-            </p>
-            <img src="./static/images/simattention_fig.svg" alt="Attention Visualization" style="width: 100%;">
-          </div>
-
-        </div>
-      </div>
     </div>
-    <!--/ Attention Visualization. -->
+    <!--/ Method Overview. -->
 
     <!-- Results. -->
     <div class="columns is-centered">
@@ -273,18 +259,6 @@
           <img src="./static/images/3d_semseg_vis.svg" alt="3D Semantic Segmentation Results" style="width: 90%;">
         </div>
         <!--/ 3D Results. -->
-
-        <!-- Ablation Studies. -->
-        <h3 class="title is-4">Ablation Studies</h3>
-        <div class="content has-text-justified">
-          <p>
-            We conduct comprehensive ablation studies on the impact of our recursive attention mechanism and temperature parameter (tau) on segmentation performance.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <img src="./static/images/tau_ablations.svg" alt="Ablation Studies" style="width: 80%;">
-        </div>
-        <!--/ Ablation Studies. -->
 
       </div>
     </div>
